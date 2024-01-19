@@ -37,7 +37,7 @@ final class APICaller {
         
         AF.request(wikipediaURL, method: .get, parameters: parameters)
             .validate(statusCode: 200 ..< 300)
-            .response { response in
+            .response(queue: .global()) { response in
                 switch response.result {
                 case .success(let data):
                     guard let safeData: Data = data else { return }

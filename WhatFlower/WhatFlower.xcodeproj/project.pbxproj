@@ -86,13 +86,13 @@
 			children = (
 				E86DCC232B52922E00E4985B /* AppDelegate.swift */,
 				E86DCC252B52922E00E4985B /* SceneDelegate.swift */,
+				E8AF1BBB2B55158300996327 /* APICaller.swift */,
 				E86DCC272B52922E00E4985B /* ViewController.swift */,
 				E86DCC292B52922E00E4985B /* Main.storyboard */,
 				E86DCC2C2B52923000E4985B /* Assets.xcassets */,
 				E86DCC2E2B52923000E4985B /* LaunchScreen.storyboard */,
 				E86DCC312B52923000E4985B /* Info.plist */,
 				E86DCC372B52929E00E4985B /* FlowerClassifier.mlmodel */,
-				E8AF1BBB2B55158300996327 /* APICaller.swift */,
 			);
 			path = WhatFlower;
 			sourceTree = "<group>";
