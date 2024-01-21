@@ -17,6 +17,9 @@
 - CoreML
 - Vision Framework
 - Wikipedia API
+- [CocoaPods] Alamofire
+- [CocoaPods] SwiftyJSON
+- [CocoaPods] SDWebImage
 
 <br>
 
